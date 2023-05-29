@@ -1,0 +1,76 @@
+.Shoping{
+    position: relative;
+    display:inline-table;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 420px;
+    width: 17.5%;
+    margin: 40px;
+}
+
+.sales-icon{
+    position: absolute;
+    background-color: #000000;
+    color: #ffffff;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: smaller;
+    z-index: 1;
+    top: 2px;
+    left: 13em;
+    cursor: pointer;
+}
+
+.Shoping__item__image img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Shoping__item__text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Shoping__item__text i {
+    color: #ffc107;
+    
+}
+
+.Shoping__item__text span {
+    text-decoration: line-through;
+    opacity: 1;
+    color: #6c757d;
+}
+
+.Shoping__item__text h5{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.Card_Footer{
+    display: inline-table;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 45px;
+    border: 1px solid #160e0e;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.Card_Footer:hover{
+    background-color: #160e0e;
+    color: #fff;
+}

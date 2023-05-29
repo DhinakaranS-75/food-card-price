@@ -1,0 +1,24 @@
+.Header{
+    background-color: #212529;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+
+.Header_items h1{
+    font-size: 5rem;
+}
+
+.Header_items p {
+    font-size: 21px;
+    color: #696a6f;
+}
+
+.Header_items{
+    padding-left: 400px;
+    padding-top: 65px;
+}
+
+.Header_items p{
+    padding-left: 80px;
+}
